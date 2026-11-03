@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-03",
+  "repository": "https://github.com/spainricardo765-cell/BenchTasksCollv3",
+  "branch": "finalpool",
+  "base_commit": "6ac0348555050a99bcf4f08ff8bf920616482289",
+  "pool_path": "tasks/finalpool",
+  "requirements_file": "tasks/examples/example-task/readme.txt",
+  "task_tracker_url": "https://app.notion.com/p/Task-Tracker-40d046bca0c8811797cafff63d83ffa2",
+  "notion_audit_url": "https://app.notion.com/p/Task-Audit-2026-11-03-40d046bca0c881bfb72acc34fd5dae58",
+  "selection_policy": "Copy tasks whose Task Tracker status is implemented and whose recorded source task directory meets the supplied template. Only incorporate existing implementations; do not change source implementations to manufacture compliance.",
+  "eligibility_checks": [
+    "task_config.json exists and is valid JSON",
+    "needed_mcp_servers is non-empty",
+    "needed_local_tools is non-empty and contains claim_done",
+    "required documentation is non-empty and in English without Chinese, as specified in the template",
+    "otherwise, only file existence is checked"
+  ],
+  "summary": {
+    "developer_branches": 14,
+    "latest_task_commit_count": 28,
+    "task_directories_checked": 116,
+    "implemented": 0,
+    "implementing": 116,
+    "copied_task_directories": 0
+  },
+  "tracker_changes": {
+    "existing_statuses_corrected": 54,
+    "tasks_added_for_latest_commits": 28,
+    "additional_untracked_task_from_latest_commit": "lueyang-dev/client-portal",
+    "total_rows_added": 29,
+    "total_rows_after_audit": 116
+  },
+  "implemented_tasks": [],
+  "branches": [
+    {
+      "name": "fan-dev",
+      "head_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "latest_task_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/8b90f34538e4e106eba103265efaa9a456be498c",
+      "latest_task_names": ["discount-calculator", "loyalty-program"],
+      "tracked_task_count": 8,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "gyy",
+      "head_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "latest_task_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "latest_task_names": ["robots-handler", "sitemap-generator", "tag-manager"],
+      "tracked_task_count": 9,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "haoze",
+      "head_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "latest_task_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/e0072cf979548c56984072cd76f529c7beea59b2",
+      "latest_task_names": ["media-organizer", "streaming-service"],
+      "tracked_task_count": 7,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "jl_dev",
+      "head_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "latest_task_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "latest_task_names": ["customer-feedback-processor", "inventory-management"],
+      "tracked_task_count": 7,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "junteng_dev",
+      "head_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "latest_task_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "latest_task_names": ["customer-portal", "help-desk"],
+      "tracked_task_count": 10,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "junxian_dev",
+      "head_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "latest_task_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "latest_task_names": ["currency-converter", "social-connector"],
+      "tracked_task_count": 8,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "lueyang-dev",
+      "head_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "latest_task_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "latest_task_names": ["territory-manager"],
+      "tracked_task_count": 10,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "lv",
+      "head_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "latest_task_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "latest_task_names": ["analytics-dashboard", "insights-engine", "survey-builder"],
+      "tracked_task_count": 9,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "ruige",
+      "head_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "latest_task_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "latest_task_names": ["log-analyzer", "web-crawler"],
+      "tracked_task_count": 8,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "wenshuo-dev",
+      "head_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "latest_task_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "latest_task_names": ["cache-optimizer", "scheduler"],
+      "tracked_task_count": 7,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "xiaochen_dev",
+      "head_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "latest_task_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "latest_task_names": ["health-monitor", "status-checker"],
+      "tracked_task_count": 10,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "yuxuan-dev",
+      "head_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "latest_task_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "latest_task_names": ["sync-service"],
+      "tracked_task_count": 7,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "yuzhen-dev",
+      "head_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "latest_task_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "latest_task_names": ["audit-logger", "resource-monitor"],
+      "tracked_task_count": 9,
+      "implemented_count": 0,
+      "pool_destinations": []
+    },
+    {
+      "name": "zhaochen",
+      "head_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "latest_task_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "latest_commit_url": "https://github.com/spainricardo765-cell/BenchTasksCollv3/commit/b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "latest_task_names": ["certificate-manager", "storage-manager"],
+      "tracked_task_count": 7,
+      "implemented_count": 0,
+      "pool_destinations": []
+    }
+  ],
+  "common_validation_failure": "All 116 checked task directories lack task_config.json. Additional document-content failures are listed in the Notion audit."
+}
